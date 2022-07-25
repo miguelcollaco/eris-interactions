@@ -40,3 +40,4 @@ This repository makes use of the [MIT License](https://opensource.org/licenses/M
 
 #  
 A small credit if this repository was to be used would be highly appreciated!
+If you liked the code please give it a star!
