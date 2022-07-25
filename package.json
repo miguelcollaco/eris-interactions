@@ -1,0 +1,32 @@
+{
+  "name": "eris-interactions",
+  "version": "1.0.0",
+  "description": "An extremely easy and straight forward interaction handler for collecting interaction or listening for a continuous stream of interactions for the Eris library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelcollaco/eris-reactions.git"
+  },
+  "keywords": [
+    "eris",
+    "interactions",
+    "collector",
+    "interaction-collector",
+    "discord",
+    "pagination",
+    "embed-pagination",
+    "discord-pagination"
+  ],
+  "author": "Miguel Collaço",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelcollaco/eris-reactions/issues"
+  },
+  "homepage": "https://github.com/miguelcollaco/eris-reactions#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
