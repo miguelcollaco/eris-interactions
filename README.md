@@ -17,7 +17,7 @@ new interactionCollector(message, options);
 ```
 - **Eris.Message** `message` - *An Eris message emitted from the `messageCreate` event.*
 - **Object** `options` - *An object containing following options:*
-    - **Function** `options.filter` - *A filter for the interaction that sould be collected.*
+    - **Function** `options.filter` - *A filter for the interactions that sould be collected.*
     - **Number** `options.maxInteractions` - *The maximum amount of interactions to collect.*
     - **Number** `options.maxTime` - *The maximum amount of time the collector should run for in milliseconds.*
 
