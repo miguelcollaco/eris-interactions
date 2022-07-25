@@ -39,5 +39,5 @@ In addition to that a temporary listener needs to be attached to listen for the 
 This repository makes use of the [MIT License](https://opensource.org/licenses/MIT) and all of its correlating traits.
 
 #  
-A small credit if this repository was to be used would be highly appreciated!
+A small credit if this repository was to be used would be highly appreciated!\
 If you liked the code please give it a star!
