@@ -13,7 +13,7 @@ Simply install Eris Interactions via NPM `npm install eris-interactions` and req
 # API 
 #### Setting up a listener:
 ```js
-new interactionCollector(client, message, options);
+new InteractionCollector(client, message, options);
 ```
 - **Eris.Client** `client` - *An Eris client*
 - **Eris.Message** `message` - *An Eris message emitted from the `messageCreate` event.*
