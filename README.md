@@ -13,12 +13,13 @@ Simply install Eris Interactions via NPM `npm install eris-interactions` and req
 # API 
 #### Setting up a listener:
 ```js
-new interactionCollector(message, options);
+new interactionCollector(client, message, options);
 ```
+- **Eris.Client** `client` - *An Eris client*
 - **Eris.Message** `message` - *An Eris message emitted from the `messageCreate` event.*
 - **Object** `options` - *An object containing following options:*
     - **Function** `options.filter` - *A filter for the interactions that sould be collected.*
-    - **Number** `options.maxInteractions` - *The maximum amount of interactions to collect.*
+    - **Number** `options.maxMatches` - *The maximum amount of interactions to collect.*
     - **Number** `options.maxTime` - *The maximum amount of time the collector should run for in milliseconds.*
 
 In addition to that a temporary listener needs to be attached to listen for the `interaction` event:
@@ -33,7 +34,7 @@ In addition to that a temporary listener needs to be attached to listen for the 
 ```
 - **String** `'end'` - *The event name. This **MUST** stay the same!*
 - **Function** `eventListener` - *The event listener which is passed a string.*
-    - **String** `reason` - *The reson for the collector to stop, it can be `maxInteractions` or `timeEnd`*.
+    - **String** `reason` - *The reson for the collector to stop, it can be `maxMatches` or `timeEnd`*.
 
 # License
 This repository makes use of the [MIT License](https://opensource.org/licenses/MIT) and all of its correlating traits.

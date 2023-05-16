@@ -1,6 +1,6 @@
 {
   "name": "eris-interactions",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "An extremely easy and straight forward interaction handler for collecting interaction or listening for a continuous stream of interactions for the Eris library.",
   "main": "index.js",
   "scripts": {
