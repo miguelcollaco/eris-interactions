@@ -35,6 +35,7 @@ In addition to that a temporary listener needs to be attached to listen for the 
 - **String** `'end'` - *The event name. This **MUST** stay the same!*
 - **Function** `eventListener` - *The event listener which is passed a string.*
     - **String** `reason` - *The reson for the collector to stop, it can be `maxMatches` or `timeEnd`*.
+    - **Array** `collected` - *`Eris.ComponentInteraction` array containing all the collected interactions*.
 
 # License
 This repository makes use of the [MIT License](https://opensource.org/licenses/MIT) and all of its correlating traits.
